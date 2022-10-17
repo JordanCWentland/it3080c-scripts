@@ -14,10 +14,6 @@ source ~/tabulate/scripts/bin/activate
 pip install tabulate
 ```
 
-Next, you will want to clone this repository down using git to run our python script!
-```bash
-git clone https://github.com/JordanCWentland/it3080c-scripts/tree/main/Labs/Lab7
-```
 After this, you will want to navigate to our downloaded script 
 ```bash
 cd Lab7
