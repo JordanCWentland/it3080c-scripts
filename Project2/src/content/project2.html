@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Overwatch 2 Average Rank Calculator</title>
+    <style>
+      p {
+        text-align: center;
+      }
+      h1 {
+        text-align: center;
+      }
+      div {
+        text-align: center;
+      }
+    </style>
+    <script src="jscript/calc.js"></script>
+  </head>
+  <body>
+    <h1>Overwatch 2 Team Average Calculator</h1>
+    <p>
+      Welcome to the overwatch 2 team average calculator. This tool can be used
+      to calculate what level of team you should be practicing against!
+    </p>
+    <p>
+      To Start, please enter your teams ranks below (limited to 5 starting
+      players)
+    </p>
+    <p>This script assumes you want to practice UP to improve!</p>
+    <div>
+      <div>
+        <label for="player1">Player 1 Rank:</label>
+        <select name="player1" id="player1">
+          <option value="bronze">bronze</option>
+          <option value="silver">silver</option>
+          <option value="gold">gold</option>
+          <option value="platinum">platinum</option>
+          <option value="diamond">diamond</option>
+          <option value="masters">masters</option>
+          <option value="grandmaster">grandmaster</option>
+        </select>
+        <label for="p1d">Division: </label>
+        <select name="p1d" id="p1d">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="player2">Player 2 Rank:</label>
+        <select name="player2" id="player2">
+          <option value="bronze">bronze</option>
+          <option value="silver">silver</option>
+          <option value="gold">gold</option>
+          <option value="platinum">platinum</option>
+          <option value="diamond">diamond</option>
+          <option value="masters">masters</option>
+          <option value="grandmaster">grandmaster</option>
+        </select>
+        <label for="p2d">Division: </label>
+        <select name="p2d" id="p2d">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="player3">Player 3 Rank:</label>
+        <select name="player3" id="player3">
+          <option value="bronze">bronze</option>
+          <option value="silver">silver</option>
+          <option value="gold">gold</option>
+          <option value="platinum">platinum</option>
+          <option value="diamond">diamond</option>
+          <option value="masters">masters</option>
+          <option value="grandmaster">grandmaster</option>
+        </select>
+        <label for="p3d">Division: </label>
+        <select name="p3d" id="p3d">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="player4">Player 4 Rank:</label>
+        <select name="player4" id="player4">
+          <option value="bronze">bronze</option>
+          <option value="silver">silver</option>
+          <option value="gold">gold</option>
+          <option value="platinum">platinum</option>
+          <option value="diamond">diamond</option>
+          <option value="masters">masters</option>
+          <option value="grandmaster">grandmaster</option>
+        </select>
+        <label for="p4d">Division: </label>
+        <select name="p4d" id="p4d">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <div>
+        <label for="player5">Player 5 Rank:</label>
+        <select name="player5" id="player5">
+          <option value="bronze">bronze</option>
+          <option value="silver">silver</option>
+          <option value="gold">gold</option>
+          <option value="platinum">platinum</option>
+          <option value="diamond">diamond</option>
+          <option value="masters">masters</option>
+          <option value="grandmaster">grandmaster</option>
+        </select>
+        <label for="p5d">Division: </label>
+        <select name="p5d" id="p5d">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+      </div>
+      <br />
+      <input
+        type="button"
+        name="clickbtn"
+        value="Submit"
+        onClick="buttonPressed()"
+        style="font-size: 19px"
+      />
+      <p id="team"></p>
+    </div>
+  </body>
+</html>
