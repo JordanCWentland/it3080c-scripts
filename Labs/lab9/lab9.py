@@ -6,5 +6,5 @@ data = r.json()
 i = 0
 for x in data:
     widgetX = data[i] 
-    print(widgetX['name']+' is '+widgetX['color'])
+    print(f"{widgetX['name']} is {widgetX['color']}")
     i = i+1
