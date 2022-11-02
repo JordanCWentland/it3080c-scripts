@@ -30,7 +30,7 @@ After this, we create a simple iteration script to iterate through `x` number of
 i = 0
 for  x  in  data:
 	widgetX = data[i]
-	print(widgetX['name']+' is '+widgetX['color'])
+    	print(f"{widgetX['name']} is {widgetX['color']}")
 	i = i+1
 ```
 #### Final Python Code:
@@ -45,7 +45,7 @@ data = r.json()
 i = 0
 for  x  in  data:
 	widgetX = data[i]
-	print(widgetX['name']+' is '+widgetX['color'])
+    	print(f"{widgetX['name']} is {widgetX['color']}")
 	i = i+1
 ```
 #### Expected output:
